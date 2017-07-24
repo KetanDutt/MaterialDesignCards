@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Material Design Bootstrap</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Material Design google icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+
+    <!-- Materialize Design 
+    <link href="css/materialize.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style>
+        /* TEMPLATE STYLES */
+        body {
+            overflow: auto!important;
+            font-family: Roboto,sans-serif;
+
+           background: #D3D3D3;
+        }
+
+        html,
+        body,
+        .view {
+            height: inherit;
+        }
+        /* Navigation*/
+        
+        .navbar {
+            background-color: black;
+        }
+        
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+        
+        .top-nav-collapse {
+            background-color: #1C2331;
+        }
+        
+        footer.page-footer {
+            background-color: #1C2331;
+            margin-top: -1px;
+                    }
+        
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #1C2331;
+            }
+        }
+        /*Call to action*/
+        
+        .flex-center {
+            color: #fff;
+        }
+        
+        .view {
+           background: #D3D3D3;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+
+        .card{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); 
+        }
+
+        .img-l{
+            width: 120%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <strong>Ketan Dutt</strong>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">About</a>
+                    </li>
+                </ul>
+                <form class="form-inline waves-effect waves-light">
+                    <input class="form-control" type="text" placeholder="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+	    
+	    
+
+   
+
+    <!--Mask <ul class="animated fadeInUp">
+                <li>
+                    <h1 class="h1-responsive">Welcome</h1></li>
+                <li>
+                    <p>Please Enter Your Details</p>
+                </li>
+                <li>
+                    <a target="_blank"  class="btn btn-primary btn-lg" rel="nofollow">Sign in!</a>
+                      <a class="btn btn-info btn-lg" id="alert-target" >Click me!</a>
+                    <a class="btn btn-info" onclick="toastr.info('Hi! I am info message.');">Info message</a>
+                    
+                    
+                    <!--Modal: Register Form
+<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modalRegister">
+    Sign up!
+</button>
+
+
+                    
+                </li>
+            </ul>--><br><br>
+    
+<div class="cards3 animated fadeInUp" >
+<!--Card-->
+<div class="card" >
+    <!--Card image-->
+    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" alt="Card image cap"  style="width: 90%;margin-top: -5%;margin-left: 5%;box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);" >
+    <!--/.Card image-->
+    <!--Card content--><br>
+    <div class="card-block" >
+
+        <!--Title <a class="waves-effect waves-light" style="color: black;float: right;"><i class="fa fa-share-alt fa-2x" aria-hidden="true" ></i></a>-->
+        <div style="display: inline-flex;width: 100%">
+        <h4 class="card-title" style="flex: 1">Custom Card title</h4>
+    <div class="fixed-action-btn horizontal click-to-toggle" style="position: relative;right: 0;bottom: 0;">
+    <a class="btn-floating btn-large waves-effect waves-light">
+      <i class="fa fa-share-alt fa-2x" aria-hidden="true" ></i>
+    </a>
+    <ul>
+      <li style="margin-right: 1%;margin-top: 2%"><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li style="margin-right: 1%;margin-top: 2%"><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li style="margin-right: 1%;margin-top: 2%"><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li style="margin-right: 1%;margin-top: 2%"><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+  
+    
+
+</div>
+        <!--Text--> <hr>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<b>Click On Share Button</b></p>
+        <br><br>
+        <div style="display: flex;justify-content: space-between; margin-right: 5%;margin-left: 5%">
+            <i class="fa fa-dribbble fa-2x" style="color:#C32361;"> </i>
+            <i class="fa fa-linkedin fa-2x" style="color:#0082CA"> </i>
+            <i class="fa fa-google-plus fa-2x" style="color: #DD4B39"> </i>
+            <i class="fa fa-instagram fa-2x" style="color:#3F729B"> </i>
+        </div>
+
+    </div>
+    <div style="background-color: #3E4551;color: #fff;text-align: center;height: auto;padding: 10px;">
+        <ul style="display: inline-flex; width: 100%;justify-content: center;margin-bottom: 0;">
+        <li style="margin: 2%"><i class="fa fa-clock-o"></i> 05/10/2015</li>
+        <li style="margin: 2%"><i class="fa fa-comments-o"></i> 12</li>
+        <li style="margin: 2%"><i class="fa fa-facebook"> </i> 21</li>
+        <li style="margin: 2%"><i class="fa fa-twitter"> </i> 5</li>
+        </ul>
+    </div>
+    <!--/.Card content-->
+</div>
+<!--/.Card-->
+<!--Card-->
+<div class="card" style="background-color: #808080;color: white; ">
+    <!--Card image--> 
+    <div class="view overlay hm-white-slight" style="background-color: transparent;margin-left: -5%;margin-right: -5%;margin-top: -5%; margin-bottom: 5%;box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19); height: auto;">
+        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="" style="width: 100%;">
+        <a href="#">
+            <div class="mask waves-effect waves-light"></div>
+        </a>
+    </div>
+    <!--/.Card image-->
+    <!--Card content-->
+    <div class="card-block">
+
+        <!--Title-->
+        <h4 class="card-title">Custom Card title</h4>
+        <!--Text--><hr>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><br>
+        <div style="display: flex;justify-content: space-between;margin:5%;">
+            <a class="waves-effect waves-light" style="text-align: center; line-height: 60px;width: 60px;height: 60px;border-radius: 50%;background-color: #3B5998;display: inline-flex;box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);"><i class="fa fa-facebook fa-2x" aria-hidden="true"  style="width: 60%;height: 60%;margin: 20%"></i></a>
+            <a class="waves-effect waves-light" style="text-align: center; line-height: inherit;width: 60px;height: 60px;border-radius: 50%;background-color: #55ACEE;display: inline-flex;box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);"><i class="fa fa-twitter fa-2x" aria-hidden="true"  style="width: 60%;height: 60%;margin: 20%"></i></a>
+            <a class="waves-effect waves-light" style="text-align: center; line-height: inherit;width: 60px;height: 60px;border-radius: 50%;background-color: #DD4B39;display: inline-flex;box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);"><i class="fa fa-google-plus fa-2x" aria-hidden="true" style="width: 60%;height: 60%;margin: 20%;display: flex;flex"></i></a>
+        </div>
+    </div>
+    <!--/.Card content-->
+</div>
+<!--/.Card-->
+
+<!--Card-->
+<div class="card view overlay hm-white-slight img-big" style="background-color: black;color: white">
+    <!--Card image-->
+    <div>
+        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%2854%29.jpg"  class="img-fluid" alt="">
+    </div>
+    <!--/.Card image-->
+    <!--Card content-->
+    <div class="card-block">
+        
+        <a class="waves-effect waves-light" style="float: right;margin-top: -15%; position: relative;color: white;text-align: center; line-height: 60px;width: 60px;height: 60px;border-radius: 50%;background-color: #4B515D;display: inline-flex;box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"  style="width: 60%;height: 60%;margin: 25%"></i></a>
+
+        <!--Title-->
+        <h4 class="card-title">Custom Card title</h4>
+        <!--Text--><hr>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><br>
+        <a href="#" class="btn btn-primary">Button</a>
+    </div>
+    <!--/.Card content-->
+    <a href="#"><div class="mask waves-effect waves-light"></div> </a>
+
+    
+</div>
+<!--/.Card-->
+
+</div>
+
+
+
+
+<div class="cards3 animated fadeInUp" style="perspective: 4000px;">
+<div class="card"  align="center">
+
+    <!--Card image-->
+    <div style="background-color: #00695c;padding: 30%;"></div>
+    <!--/.Card image-->
+
+    <!--Card content-->
+    <div class="card-block">
+    <div style="margin-right: 30%;margin-left: 30%;border-radius: 50%;box-sizing: border-box; border-style: solid;border-color: white; margin-top: -30%;">
+    <img src="img/img (8).jpg" alt="Card image cap" style="border-radius: 50%;width: 110%;height: 100%;">
+    </div>
+        <!--Title--><br>    
+        <h4 class="card-title" align="center">John Doe</h4>
+        <!--Text--><hr><br>
+        <p class="card-text"><i class="fa fa-quote-left" aria-hidden="true" ></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.</p><br>
+<br>
+      </div>
+    <!--/.Card content-->
+
+</div>
+<!--/.Card-->
+
+
+<!--Card-->
+<div class="card" align="center" style="color:white;background-image:url('https://mdbootstrap.com/img/Photos/Exposure/Dark/courses.jpg');">
+
+    <!--Card image-->
+   
+    <!--/.Card image-->
+
+    <!--Card content-->
+    <div class="card-block" style="margin-top: 40%;">
+        <!--Title-->
+        <h4 class="card-title">Photo Background Card</h4><hr>
+        <!--Text-->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><hr>
+        <a href="#" class="btn btn-primary">Button</a>
+    </div>
+    <!--/.Card content-->
+
+</div>
+<!--/.Card-->
+
+<div class="card flip" align="center" >
+<div style="width: 100%;height: 100%;position: relative;padding-top: 100%"></div> 
+<div class="front" >
+
+            <!--Card image-->
+        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt=""> 
+    <!--/.Card image-->
+
+    <!--Card content-->
+    <div class="card-block">
+        <h4 class="card-title">Rotating Card</h4><hr>
+        <!--Text-->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><hr>
+        <!--Title--><a class="btn flipbtn" style="background-color: blue">Flip</a>
+    </div>
+    <!--/.Card content-->
+
+</div>
+<div class="back">
+
+            <!--Card image-->
+        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%2854%29.jpg" class="img-fluid" alt="">
+    <!--/.Card image-->
+
+    <!--Card content-->
+    <div class="card-block">
+        <h4 class="card-title">Rotating Card</h4><hr>
+        <!--Text-->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><hr>
+        <!--Title--><a class="btn flipbtn" style="background-color: blue">Flip</a>
+    </div>
+    <!--/.Card content-->
+</div>
+</div>
+        
+</div>
+
+
+
+
+
+
+
+
+        
+
+
+           
+
+
+<br><br><br><br>
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3 offset-lg-1 hidden-lg-down">
+                    <h5 class="title">ABOUT MATERIAL DESIGN</h5>
+                    <p>Material Design (codenamed Quantum Paper) is a design language developed by Google. </p>
+
+                    <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-lg-2 col-md-4 offset-lg-1">
+                    <h5 class="title">First column</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Third column-->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="title">Second column</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Fourth column-->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="title">Third column</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <hr>
+
+        <!--Call to action-->
+        <div class="call-to-action">
+            <h4>Material Design for Bootstrap</h4>
+            <ul>
+                <li>
+                    <h5>Get our UI KIT for free</h5></li>
+                <li><a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-danger" rel="nofollow">Sign up!</a></li>
+                <li><a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default" rel="nofollow">Learn more</a></li>
+            </ul>
+        </div>
+        <!--/.Call to action-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2015 Copyright: <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+   
+    <!--/.Footer-->
+    
+    
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.js"></script>
+
+    <!-- Materialize core JavaScript 
+    <script type="text/javascript" src="js/materialize.js"></script>-->
+
+    <script type="text/javascript"> $('.fixed-action-btn').openFAB();
+  $('.fixed-action-btn').closeFAB();
+  $('.fixed-action-btn.toolbar').openToolbar();
+  $('.fixed-action-btn.toolbar').closeToolbar();
+        
+    </script>
+
+    <script type="text/javascript">
+        $(function(){
+
+            $('.flipbtn').on('click',function(){
+                $('.flip').toggleClass('open');
+            });
+        });
+    </script>
+</body>
+
+</html>
